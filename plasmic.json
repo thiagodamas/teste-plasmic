@@ -1,0 +1,90 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "3D78XzjBFRhrPqCAEoF8HV",
+      "projectApiToken": "YisxQ4bZaXxfuuVooxPPKIHzN9Jq6g3ficlLftcF6oOnEjkdW6YSVj4uHL7jbfIZX6cHngxm1Y04lXoG8hwfg",
+      "projectName": "Blank project",
+      "version": "latest",
+      "cssFilePath": "plasmic/blank_project/plasmic_blank_project.module.css",
+      "components": [
+        {
+          "id": "B6hE2df0v1",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "3D78XzjBFRhrPqCAEoF8HV",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "Homepage.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "coIbw3Jg8eu",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "Wdph7dOtBjZ",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "g3erbLnKsVf",
+          "name": "Polygon4Icon",
+          "moduleFilePath": "plasmic/blank_project/icons/PlasmicIcon__Polygon4.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "L7iLizMa7Hi",
+          "name": "image.png",
+          "filePath": "plasmic/blank_project/images/imagepng.jpeg"
+        },
+        {
+          "id": "y62PNjYKLJ",
+          "name": "Rectangle 1",
+          "filePath": "plasmic/blank_project/images/rectangle1.png"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "wNB7PDdiZEd",
+        "name": "Screen",
+        "projectId": "3D78XzjBFRhrPqCAEoF8HV",
+        "contextFilePath": "plasmic/blank_project/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
+}
